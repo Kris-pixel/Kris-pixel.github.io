@@ -1,0 +1,84 @@
+.galery {		/*контейнер с плейером и галереей видео*/
+position: relative;
+  background: rgb(240,240,240);
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  min-height: 673px;
+}
+
+/* стили видео-плейера*/
+.player {		
+	width: 570px;
+    display: flex;
+	flex-direction:column; 
+	align-items: center;
+	min-height: 673px;
+	background-color:#3b3b3b;
+}
+.player iframe{
+	  margin: 25px;
+}
+
+.pics{
+	width: 100%;
+	text-align: right;
+
+}
+.pics hr{
+	visibility: visible;
+	display: block;
+	border: none;
+	background-color: #956fd0;
+	height: 5px;
+	width: 55%;
+	margin:0px 0px 5px 30px;
+}
+
+/*стили галереи видео*/
+p{
+	font: 36pt 'MysteriDi';
+	color: #956fd0;
+	margin: 20px 40px 0px 10px;
+}
+.pics a img{
+	height: 120px;
+	width: 168px;
+	margin:10px;
+}
+.pics a:hover{ 
+	opacity: 0.7;
+}
+#first{
+	opacity: 0.3;
+}
+.item {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin: 0px 10px;
+}
+
+/*информация о видео в плейере*/
+.vinfo p{
+	color: #fff;
+	font: 12pt 'BebasNeue';
+	display:block;
+}
+.vinfo span{
+	color: #d4b9ff;
+	font: 12pt 'BebasNeue';
+}
+#gist{
+	columns: 2;
+	margin: 20px 40px 0px 40px;
+}
+.vinfo{
+	letter-spacing: 1px;
+	margin:0px 0px 20px 0px;
+	width: 100%;
+}
+#glass, #scarb, #chinese, #israel, #photo, #vet{
+	display: none;
+}

@@ -1,0 +1,138 @@
+body{
+	background-color:#f1e8ff;
+}
+/*центр: 3 кнопки*/
+.container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+    margin: 10px;
+    justify-content: center;
+}
+.button{
+	display: flex;
+	flex-grow: 1;
+	align-items: center;
+   	justify-content: center;
+	margin: 3px;
+	height: 211px;
+	max-width: 335px;
+	border: 5px solid #956fd0;
+	border-radius: 15px;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	color:#956fd0;
+}
+
+/*нижний сегмент:контакты и соцсети*/
+.container2{
+	display: flex;
+	flex-wrap: wrap;
+}
+.info{
+	display: flex;
+	flex-wrap: wrap;
+	flex-grow: 5;
+	border: 5px solid #fff;
+	border-radius: 15px;
+	margin: 5px;
+	min-height: 95px;
+	align-items: center;
+}
+.social{
+	flex-grow: 0;
+	border: 5px solid #956fd0;
+	border-radius: 15px;
+	margin: 5px;
+	height: 95px;
+}
+.info .f{
+	flex-grow: 7;
+}
+#email{
+	flex-grow: 1;
+	display: block;
+	margin: 25px;
+	color: #808080;
+	font: 32pt 'BebasNeue';
+}
+.social div{			/*контейнер с картинками соцсетей*/
+	margin:10px;
+	justify-content: center;
+}
+a img{
+	height: 50px;
+	width: 50px;
+	margin:10px 5px;
+}
+a:hover img{
+	opacity: 0.7;
+}
+
+/*блок с именем*/
+.name{
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	border: inherit;
+	border-radius: inherit;
+	min-height: 110px;
+	margin:10px 5px;
+}
+.name .w{
+	flex-grow: 1;
+}
+.name .f{
+	flex-grow: 2;
+}
+
+#clap{
+	padding: 5px;
+	min-height: 640px;
+	margin: 5px 169px 10px 169px;
+	background-color:#000;
+	border-radius: 15px;
+	box-shadow: 5px 5px 0px #a6a6a6; 
+	justify-content: center;
+}
+.frame{
+	border: 5px solid #fff;
+	border-radius: inherit;
+	margin:5px;
+	min-height: 505px;
+	max-width: 99%;
+}
+#zebra{
+	background-image: url(content/img/zebra.png);
+	height: 111px;
+	border: 5px solid #956fd0;
+	border-radius: inherit;
+	margin: 2px;
+}
+
+/*общее оформление текста*/
+.f{
+	margin: 10px;
+	font: 32pt 'BebasNeue';
+	color:#956fd0;
+	display: block;
+}
+.w{
+	color: #fff;
+	font: 60px 'MysteriDi';
+	display: block;
+	margin:10px;
+
+}
+
+@media(max-width: 990px){
+	#clap{
+		margin: 5px 50px;
+	}
+	.container{
+	    justify-content: flex-start;
+	}
+}

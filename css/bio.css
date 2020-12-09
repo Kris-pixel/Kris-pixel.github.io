@@ -1,0 +1,87 @@
+body{
+	background-image: linear-gradient(to bottom right,#fff,#f1e8ff,#fff);
+}
+article{
+	margin: 0px 300px 0px 150px;
+	background-color: #fff;
+}
+@media(max-width: 1050px){
+	article{
+		margin: 0px 50px 0px 100px;
+	}
+}
+
+/*стили обложки статьи*/
+.cover{
+	background-image: url(content/img/cover.jpg);
+	width: 100%;
+	min-height: 297px;
+	position: relative;
+}
+.cover h2{
+	font:16px 'BebasNeue';
+	letter-spacing: 1px;
+	margin: 13px 10px;
+	color:#fff;
+	opacity: 0.7;
+}
+.cover p{
+	font: 40px 'BebasNeue';
+	letter-spacing: 1px;
+	color:#fff;
+	margin: 10px 10px ;
+}
+.cover p:last-child{
+	color: #d4b9ff;
+}
+.cover div{
+	padding: 17px;
+	position: absolute;
+	bottom: 0px; 
+}
+
+/*стили сплошного текста*/
+.text{
+	padding: 38px 57px 73px 57px;
+	font-size:17px;
+	text-align: justify;
+}
+.text li{
+	list-style-type:none;
+	font: 20px 'BebasNeue';
+	letter-spacing: 1px;
+}
+li::before{
+	color: #956fd0;
+	content: "➤ ";
+}
+.text a:link{
+	color: #7046b1;
+	margin: 0px 5px;
+}
+.text a:visited{
+	color: #956fd0;
+}
+.text a:hover{
+	color: #d4b9ff;
+	text-decoration: underline;
+}
+.text p{
+	margin: 0px 0px 20px 0px;
+}
+.text img{
+	margin:10px 0px 10px 10px;
+	width:328px;
+	height:280px;
+	position: relative;
+	float: right;
+}
+@media(max-width: 769px){
+	.text img{
+	margin:10px 0px 10px 10px;
+	width:290px;
+	height:250px;
+	position: relative;
+	float: right;
+}
+}

@@ -1,0 +1,64 @@
+body{
+	background-image: linear-gradient(to bottom right,#fff,#f1e8ff,#fff);
+}
+article{
+	margin: 0px 300px 0px 150px;
+	background-color: #fff;
+	min-height: 585px;
+	padding: 20px;
+}
+@media(max-width: 1239px){
+	article{
+		margin: 0px 100px 0px 100px;
+	}
+}
+.container{			/*в нем лежат 2 плитки со ссылками*/
+	margin: 0px 40px;
+}
+
+/*оформление плиток-ссылок на статьи*/
+.linking{
+	width: 290px;
+	padding: 5px;
+	background-color: #f0f0f0;
+	border-radius: 5px; 
+	box-shadow: 2px 2px 0px #c2c2c2;
+	margin: 10px;
+	display: inline-flex;
+}
+.container img{
+
+	width: 280px;
+	height: 224px;
+	border-radius: 3px;
+}
+p{
+	font:21px 'BebasNeue';
+	color: #000;
+	margin-bottom: 0px;
+}
+span{
+	font:13px 'BebasNeue';
+	color: #000;
+	letter-spacing: 2px;
+	opacity: .5;
+	margin-left: 10px;
+}
+a:hover p, a:hover span{
+	color: #fff;
+}
+
+/*стили дл заголовка на странице*/
+h1{
+	font: 38px 'MysteriDi';
+	color: #956fd0;
+	margin: 40px 40px 0px 40px;
+}
+article hr{
+	visibility: visible;
+	border: none;
+	background-color: #956fd0;
+	height: 5px;
+	width: 90%;
+	margin: 0px 0px 40px 30px;
+}
