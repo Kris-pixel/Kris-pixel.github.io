@@ -1,0 +1,82 @@
+$(document).ready(function(){
+		/*прозрачность у просмотренных видео*/
+	$('.pics a').click(function(){
+		$(this).css("opacity","0.3");
+	});
+
+		/*показ иформации о выбранном видео*/
+	$('img[alt^="Стакан"]').click(function(){
+		$('#glass').css("display","block");
+		$('#scarb').css("display","none");
+		$('#chinese').css("display","none");
+		$('#israel').css("display","none");
+		$('#photo').css("display","none");
+		$('#vet').css("display","none");
+		$('#gist').css("display","none");
+	});
+	$('img[alt^="Скарбонка"]').click(function(){
+		$('#glass').css("display","none");
+		$('#scarb').css("display","block");
+		$('#chinese').css("display","none");
+		$('#israel').css("display","none");
+		$('#photo').css("display","none");
+		$('#vet').css("display","none");
+		$('#gist').css("display","none");
+	});
+	$('img[alt^="китаец"]').click(function(){
+		$('#glass').css("display","none");
+		$('#scarb').css("display","none");
+		$('#chinese').css("display","block");
+		$('#israel').css("display","none");
+		$('#photo').css("display","none");
+		$('#vet').css("display","none");
+		$('#gist').css("display","none");
+	});
+	$('img[alt^="израильтянен"]').click(function(){
+		$('#glass').css("display","none");
+		$('#scarb').css("display","none");
+		$('#chinese').css("display","none");
+		$('#israel').css("display","block");
+		$('#photo').css("display","none");
+		$('#vet').css("display","none");
+		$('#gist').css("display","none");
+	});
+	$('img[alt^="фотоохота"]').click(function(){
+		$('#glass').css("display","none");
+		$('#scarb').css("display","none");
+		$('#chinese').css("display","none");
+		$('#israel').css("display","none");
+		$('#photo').css("display","block");
+		$('#vet').css("display","none");
+		$('#gist').css("display","none");
+	});
+	$('img[alt^="Ветеринар-неформал"]').click(function(){
+		$('#glass').css("display","none");
+		$('#scarb').css("display","none");
+		$('#chinese').css("display","none");
+		$('#israel').css("display","none");
+		$('#photo').css("display","none");
+		$('#vet').css("display","block");
+		$('#gist').css("display","none");
+	});
+	$('img[alt^="Гiсторыя"]').click(function(){
+		$('#glass').css("display","none");
+		$('#scarb').css("display","none");
+		$('#chinese').css("display","none");
+		$('#israel').css("display","none");
+		$('#photo').css("display","none");
+		$('#vet').css("display","none");
+		$('#gist').css("display","block");
+	});
+	$('img[alt^="промо-ролик"]').click(function(){
+		$('#glass').css("display","none");
+		$('#scarb').css("display","none");
+		$('#chinese').css("display","none");
+		$('#israel').css("display","none");
+		$('#photo').css("display","none");
+		$('#vet').css("display","none");
+		$('#gist').css("display","none");
+	});
+
+});
+
