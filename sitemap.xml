@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>index.html</loc>
+		<loc>https://kris-pixel.github.io/index.html</loc>
 		<lastmod>2020-12-05</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.9</priority>
 	</url>
 	<url>
-		<loc>bio.html</loc>
+		<loc>https://kris-pixel.github.io/bio.html</loc>
 		<lastmod>2020-12-05</lastmod>
 		<changefreq>yerly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>video.html</loc>
+		<loc>https://kris-pixel.github.io/video.html</loc>
 		<lastmod>2020-12-05</lastmod>
 		<changefreq>yerly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>press.html</loc>
+		<loc>https://kris-pixel.github.io/press.html</loc>
 		<lastmod>2020-12-05</lastmod>
 		<changefreq>yerly</changefreq>
 		<priority>0.5</priority>
